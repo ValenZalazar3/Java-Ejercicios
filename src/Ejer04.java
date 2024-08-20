@@ -7,7 +7,6 @@ public class Ejer04 {
     public static void main(String[] args) throws Exception {
 
         int edad;
-
         char genero;
 
         int jubilacionHombres = 65;
