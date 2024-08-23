@@ -12,7 +12,7 @@ public class EjercTodoCode04 {
     public static final Scanner scanner = new Scanner(System.in);
     public static final Scanner scanner2 = new Scanner(System.in);
     public static void main(String[] args) {
-        
+        //creación de variables
         String ciudades[] = new String[3];
 
         double minima[]= new double[3];
@@ -23,7 +23,7 @@ public class EjercTodoCode04 {
         String ciudadesfinalesMinimas = "";
         String ciudadesfinalesMaximas= "";
 
-
+        //asignación de valor a los arrays
         for (int i = 0; i < 3; i++) {
             System.out.println("Ingrese la ciudad: ");
             ciudades[i] = scanner.nextLine();
@@ -36,6 +36,8 @@ public class EjercTodoCode04 {
 
             
         }
+
+        // logica para ver temps maximas y minimas, mas las ciudades
         for (int j = 0; j < 3; j++) {
             
             if (temperaturasMinimas > minima[j]) {
