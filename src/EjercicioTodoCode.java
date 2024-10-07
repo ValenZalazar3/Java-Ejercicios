@@ -37,3 +37,9 @@ public class EjercicioTodoCode {
     }
     
 }
+// primero seriados arrays de dos filas  y 5 alumnos
+// se agregan cinco nostas
+//despues se pueden recorrer los dos con dos for y hacer la cuenta del promedio
+// al final mostramos un condicional dependiendo que promedio de fila es mas alto
+
+// primero seria un while
